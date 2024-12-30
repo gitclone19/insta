@@ -12,7 +12,7 @@ def login():
     password = request.form['password']
     print(f"Foydalanuvchi: {username}")
     print(f"Parol: {password}")
-    return f"<h1>Kirish muvaffaqiyatli! Foydalanuvchi: {username}</h1>"
+    return f"<h1>{username} akkauntidan chiqish muvaffaqatli yakunlandi</h1>"
 
 if __name__ == '__main__':
     app.run(debug=True)
